@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Kacper Siniło",
   desc: "I have a computer",
   title: "kasin-it",
-  ogImage: "kasin-it.webp",
+  ogImage: "kasin-it.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
   projectPerPage: 4,
