@@ -18,10 +18,11 @@ const {
   author,
   description,
   ogImage,
+  github,
+  liveDemo,
   canonicalURL,
   pubDatetime,
   modDatetime,
-  tags,
 } = project.data;
 
 const { Content } = await project.render();
@@ -39,6 +40,8 @@ const layoutProps = {
   pubDatetime,
   modDatetime,
   canonicalURL,
+  github,
+  liveDemo,
   ogImage: ogUrl,
   scrollSmooth: true,
 };
@@ -66,13 +69,15 @@ const layoutProps = {
       size="lg"
       className="my-2"
     />
+
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
+      <div>
+        <a href={github} target="_blank">Source Code</a>
+        <a href={liveDemo} target="_blank">Live Demo</a>
+      </div>
       <Content />
     </article>
 
-    <ul class="my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
-    </ul>
     <div class="flex justify-end">
       <button
         id="back-to-top"

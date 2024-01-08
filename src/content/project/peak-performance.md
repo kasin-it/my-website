@@ -1,15 +1,13 @@
 ---
 author: Kacper Siniło
-pubDatetime: 2024-07-04T22:30:41.816Z
+pubDatetime: 2023-12-10T22:30:41.816Z
 title: Peak Performance
 slug: "peek-performance"
+github: "https://github.com/kasin-it/peak-performance"
+liveDemo: "https://peak-performance-phi.vercel.app"
 featured: true
 ogImage: ../../assets/images/peak-performance.webp
-tags:
-  - nextjs
-  - frontend
-  - beginner
-description: "We will examine the various rendering techniques provided by Next.js."
+description: "This project employs Next.js and Contentful to build a high-performance web app."
 ---
 
 ![Next.js](@assets/images/peak-performance.webp)
@@ -34,5 +32,5 @@ This project employs Next.js and Contentful to build a high-performance web app.
 
 - 📱 **Responsive Design**
 
-[Kacper Siniło](https://satnaing.dev) <br/>
+Kacper Siniło <br/>
 Fullstack Developer

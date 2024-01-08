@@ -4,7 +4,7 @@ import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import Card from "@components/Card";
+import PostCard from "@components/PostCard";
 import Pagination from "@components/Pagination.astro";
 import { SITE } from "@config";
 
@@ -30,7 +30,7 @@ const { currentPage, totalPages, paginatedPosts, tag, tagName } = Astro.props;
     <ul>
       {
         paginatedPosts.map(({ data, slug }) => (
-          <Card href={`/posts/${slug}`} frontmatter={data} />
+          <PostCard href={`/posts/${slug}`} frontmatter={data} />
         ))
       }
     </ul>
@@ -47,3 +47,4 @@ const { currentPage, totalPages, paginatedPosts, tag, tagName } = Astro.props;
 
   <Footer noMarginTop={totalPages > 1} />
 </Layout>
+@components/PostCard

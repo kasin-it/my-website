@@ -1,24 +1,27 @@
 ---
 author: Kacper Siniło
-pubDatetime: 2024-07-04T22:30:41.816Z
+pubDatetime: 2023-10-14T22:30:41.816Z
 title: Mokarico Caffee Clone
 slug: "mokarico-caffee"
+github: "https://github.com/kasin-it/mokarico-caffee"
+liveDemo: "https://mokarico-caffe.vercel.app"
 featured: true
 ogImage: ../../assets/images/mokarico.webp
-tags:
-  - nextjs
-  - frontend
-  - beginner
-description: "We will examine the various rendering techniques provided by Next.js."
+description: "This project is built with Next.js 13, utilizing app router with SSR and dynamic routes."
 ---
 
 ![Next.js](@assets/images/mokarico.webp)
 
-Next.js is a robust React framework that gives considerable weight to rendering strategies to boost the performance and user experience of web applications. Comprehending the intricacies of rendering in Next.js is vital for developers seeking to develop fast, interactive, and SEO-optimized websites.
+Welcome to Mokarico Caffè, where every cup tells a story!
+This project is built with Next.js 13, utilizing app router with SSR and dynamic routes.
 
-In this piece, we examine the various rendering techniques provided by Next.js and how they can be utilized to attain specific objectives. We cover Server-Side Rendering (SSR), Static Site Generation (SSG), Incremental Static Regeneration (ISR), and Client-Side Rendering (CSR), each playing a unique role in shaping the behavior and efficiency of Next.js applications.
+### 🚀 Features
 
-## Table of contents
+- 🔎 **SEO Friendly**
 
-[Kacper Siniło](https://satnaing.dev) <br/>
+- 👤 **User Registration and Authentication**
+
+- 📱 **Responsive Design**
+
+Kacper Siniło <br/>
 Fullstack Developer

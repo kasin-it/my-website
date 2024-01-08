@@ -1,6 +1,6 @@
 ---
 author: Kacper Siniło
-pubDatetime: 2024-07-04T22:30:41.816Z
+pubDatetime: 2024-01-08T14:00:00.816Z
 title: Next.js rendering strategies explained
 slug: "nextjs-rendering-strategies-explained"
 featured: true

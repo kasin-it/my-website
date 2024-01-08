@@ -5,8 +5,8 @@ import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Pagination from "@components/Pagination.astro";
-import Card from "@components/Card";
 import { SITE } from "@config";
+import ProjectCard from "@components/ProjectCard";
 
 export interface Props {
   currentPage: number;
@@ -23,7 +23,7 @@ const { currentPage, totalPages, paginatedProjects } = Astro.props;
     <ul>
       {
         paginatedProjects.map(({ data, slug }) => (
-          <Card href={`/projects/${slug}`} frontmatter={data} />
+          <ProjectCard href={`/projects/${slug}`} frontmatter={data} />
         ))
       }
     </ul>
@@ -38,3 +38,4 @@ const { currentPage, totalPages, paginatedProjects } = Astro.props;
 
   <Footer noMarginTop={totalPages > 1} />
 </Layout>
+@components/PostCard
