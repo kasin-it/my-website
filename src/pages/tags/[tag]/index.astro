@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import TagPosts from "@layouts/TagPosts.astro";
 import getPostsByTag from "@utils/getPostsByTag";
-import getPagination from "@utils/getPagination";
+import getPagination from "@utils/getPostsPagination";
 import getUniqueTags from "@utils/getUniqueTags";
 
 export async function getStaticPaths() {
@@ -30,3 +30,4 @@ const pagination = getPagination({
 ---
 
 <TagPosts {...pagination} {tag} {tagName} />
+@utils/getPostsPagination

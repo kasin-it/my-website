@@ -7,7 +7,7 @@ interface GetPaginationProps<T> {
   isIndex?: boolean;
 }
 
-const getPagination = <T>({
+const getPostsPagination = <T>({
   posts,
   page,
   isIndex = false,
@@ -32,4 +32,4 @@ const getPagination = <T>({
   };
 };
 
-export default getPagination;
+export default getPostsPagination;

@@ -4,7 +4,7 @@ import TagPosts from "@layouts/TagPosts.astro";
 import getUniqueTags from "@utils/getUniqueTags";
 import getPostsByTag from "@utils/getPostsByTag";
 import getPageNumbers from "@utils/getPageNumbers";
-import getPagination from "@utils/getPagination";
+import getPagination from "@utils/getPostsPagination";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -42,3 +42,4 @@ const pagination = getPagination({
 ---
 
 <TagPosts {...pagination} {tag} {tagName} />
+@utils/getPostsPagination
