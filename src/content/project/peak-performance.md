@@ -6,7 +6,6 @@ slug: "peek-performance"
 github: "https://github.com/kasin-it/peak-performance"
 liveDemo: "https://peak-performance-phi.vercel.app"
 featured: true
-ogImage: ../../assets/images/peak-performance.webp
 description: "This project employs Next.js and Contentful to build a high-performance web app."
 ---
 

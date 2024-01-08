@@ -4,7 +4,6 @@ pubDatetime: 2024-01-08T14:00:00.816Z
 title: Next.js rendering strategies explained
 slug: "nextjs-rendering-strategies-explained"
 featured: true
-ogImage: ../../assets/images/nextjs.webp
 tags:
   - nextjs
   - frontend

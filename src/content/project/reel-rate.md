@@ -6,7 +6,6 @@ slug: "reel-rate"
 github: "https://github.com/kasin-it/ReelRate"
 liveDemo: "https://peak-performance-phi.vercel.app"
 featured: true
-ogImage: ../../assets/images/reel-rate.webp
 description: "This project employs Next.js and planetscale to build a high-performance web app."
 ---
 
