@@ -220,5 +220,5 @@ export default function Card({ children }: CardProps) {
 
 By understanding the intricacies of Server-Side Rendering, Static Site Generation, Incremental Static Regeneration, and Client-Side Rendering in Next.js, developers can make informed decisions to optimize their applications for speed, SEO, and user engagement. Each rendering strategy comes with its strengths, and the choice depends on the specific requirements of the project.
 
-[Kacper Siniło](https://satnaing.dev) <br/>
+Kacper Siniło <br/>
 Fullstack Developer
