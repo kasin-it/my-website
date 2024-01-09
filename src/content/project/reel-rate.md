@@ -4,7 +4,7 @@ pubDatetime: 2024-01-02T17:20:41.816Z
 title: Reel Rate
 slug: "reel-rate"
 github: "https://github.com/kasin-it/ReelRate"
-liveDemo: "https://peak-performance-phi.vercel.app"
+liveDemo: "https://reel-rate.vercel.app"
 featured: true
 description: "This project employs Next.js and planetscale to build a high-performance web app."
 ---
