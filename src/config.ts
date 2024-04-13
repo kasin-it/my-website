@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://www.kasin-it.dev",
   author: "Kacper Siniło",
   desc: "I have a computer",
-  title: "kasin-it.dev",
+  title: "Fullstack Developer",
   ogImage: "kasin-it.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
