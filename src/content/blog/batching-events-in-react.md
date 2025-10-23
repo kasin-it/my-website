@@ -64,10 +64,6 @@ export class Batcher<T> {
     this.resetFlushTimer();
   }
 
-  getQueueSize(): number {
-    return this.queue.length;
-  }
-
   async flush(): Promise<void> {
     if (this.queue.length === 0) return;
     const items = this.queue.splice(0, this.queue.length);
