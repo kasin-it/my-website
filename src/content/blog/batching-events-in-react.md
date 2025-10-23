@@ -32,7 +32,7 @@ Batching collects work for a short, fixed window and sends it all at once. Typic
 
 The trade-off is small, intentional delay: you wait up to the window length to send the work.
 
-## How batching works (mental model)
+## How batching works
 
 - you have a queue to hold items
 - you have a timer (the “window”) that resets whenever a new item arrives
