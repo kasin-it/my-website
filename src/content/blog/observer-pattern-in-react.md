@@ -43,7 +43,7 @@ export class ObserverService {
 }
 ```
 
-Here is the implementation of the hooks
+Here is the implementation of the hook
 
 ```tsx
 "use client";
