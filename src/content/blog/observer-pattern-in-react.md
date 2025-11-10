@@ -46,8 +46,6 @@ export class ObserverService {
 Here is the implementation of the hook
 
 ```tsx
-"use client";
-
 import { ObserverService } from "@/services/observer-service";
 import { useState, useEffect } from "react";
 
@@ -82,8 +80,6 @@ The following two components both use the same `useObserver` hook. Because the h
 
 ```tsx
 // Observer 1
-"use client";
-
 import { useObserver } from "@/hooks/use-observer";
 import React from "react";
 
@@ -107,8 +103,6 @@ Expected behavior of the examples:
 
 ```tsx
 // Observer 2
-"use client";
-
 import { useObserver } from "@/hooks/use-observer";
 import React from "react";
 
